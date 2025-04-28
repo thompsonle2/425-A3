@@ -19,7 +19,7 @@ class A3Test {
         provideInput("0 0\n");
         ByteArrayOutputStream output = captureOutput();
 
-        CMSC401_A3.main(new String[]{});
+        A3-BFS-route.main(new String[]{});
 
         assertEquals("0\n", output.toString());
     }
@@ -29,7 +29,7 @@ class A3Test {
         provideInput("1 1\n1 0\n");
         ByteArrayOutputStream output = captureOutput();
 
-        CMSC401_A3.main(new String[]{});
+        A3-BFS-route.main(new String[]{});
 
         assertEquals("1\n", output.toString());
     }
@@ -39,7 +39,7 @@ class A3Test {
         provideInput("1 1\n0\n");
         ByteArrayOutputStream output = captureOutput();
 
-        CMSC401_A3.main(new String[]{});
+        A3-BFS-route.main(new String[]{});
 
         assertEquals("0\n", output.toString());
     }
@@ -49,7 +49,7 @@ class A3Test {
         provideInput("2 2\n1 0\n1 1\n");
         ByteArrayOutputStream output = captureOutput();
 
-        CMSC401_A3.main(new String[]{});
+        A3-BFS-route.main(new String[]{});
 
         assertEquals("2\n", output.toString());
     }
@@ -59,7 +59,7 @@ class A3Test {
         provideInput("2 1\n1 0\n1 0\n");
         ByteArrayOutputStream output = captureOutput();
 
-        CMSC401_A3.main(new String[]{});
+        A3-BFS-route.main(new String[]{});
 
         assertEquals("1\n", output.toString());
     }
@@ -69,7 +69,7 @@ class A3Test {
         provideInput("3 2\n2 0 1\n1 0\n1 1\n");
         ByteArrayOutputStream output = captureOutput();
 
-        CMSC401_A3.main(new String[]{});
+        A3-BFS-route.main(new String[]{});
 
         assertEquals("2\n", output.toString());
     }
@@ -79,7 +79,7 @@ class A3Test {
         provideInput("2 2\n0\n0\n");
         ByteArrayOutputStream output = captureOutput();
 
-        CMSC401_A3.main(new String[]{});
+        A3-BFS-route.main(new String[]{});
 
         assertEquals("0\n", output.toString());
     }
@@ -89,7 +89,7 @@ class A3Test {
         provideInput("2 4\n1 0\n2 1 2\n");
         ByteArrayOutputStream output = captureOutput();
 
-        CMSC401_A3.main(new String[]{});
+        A3-BFS-route.main(new String[]{});
 
         assertEquals("2\n", output.toString());
     }
